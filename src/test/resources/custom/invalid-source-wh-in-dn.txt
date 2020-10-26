@@ -1,0 +1,35 @@
+# Section 1: List of company warehouses in the country
+WH1 Pune
+WH2 Mumbai
+WH3 Delhi
+WH4 Lucknow
+WH5 Kanpur
+WH6 Chennai
+WH7 Hyderabad
+WH8 Ranchi
+WH9 Ahmedabad
+WH10 Jaipur
+WH11 Raipur
+WH12 Bangalore
+
+# Section 2: Delivery network
+WH11 WH5 5
+WH5 RETURN_WH 5
+WH5 WH10 4
+WH5 WH1 6
+WH1 WH2 1
+WH2 WH3 1
+WH3 WH4 1
+WH10 WH9 1
+WH9 WH8 1
+WH8 WH7 1
+WH7 WH6 1
+WH20 WH6 1
+
+# Section 3: Packages
+pkg1 WH11 Pune
+pkg2 WH5 Lucknow
+pkg3 WH2 Pune
+pkg4 WH8 Kanpur
+pkg5 WH7 RETURN
+pkg6 WH1 Bangalore
